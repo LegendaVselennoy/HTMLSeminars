@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.center{
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+
+.center2{
+    padding-left: calc(50% - 750px);
+    padding-right: calc(50% - 750px);
+}
+
+
+header{
+    height: 75px;
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-vs-icon{
+    padding: 18px;
+    display: flex;
+    gap: 41px;
+}
+
+.menu-head{
+    padding: 26px;
+    display: flex;
+    gap: 33px;
+}
+
+.upper-style{
+    background: #F1E4E6;
+    display: flex;
+    align-items: center;
+}
+
+
+.upper-style hr{
+    border: 1px solid #F16D7F;
+    background:#F16D7F;
+    width: 12px;
+    height: 92px;
+    margin: 0px 16px 0px 63px; 
+}
+
+
+.text-right h1{
+    font-weight:900;
+    font-size: 43px;
+    line-height: 58px;
+}
+
+.text-right h2{
+    font-weight:700;
+    font-size: 21px;
+    line-height: 38px;
+}
+
+.foto_photo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 96px;
+}
+
+.foto_photo img{
+    background-image: #433C3E;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.text-pos h5{
+    color:#FFF;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+}
+
+.text-pos h6{
+    color: #F16D7F;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 85px;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.big-big h5{
+    margin-bottom: 75px;
+}
+
+
+
+
+/* .foto_photo{
+    max-width: 1140px;
+    min-height: 470px;
+    display: grid;
+    gap: 30px;
+    margin: 65px 230px 96px 350px;
+    align-items: center;
+} */
+
+/* .text-pos h6{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}  */
+
+/* .foto_photo h5{
+    color:#FFF;
+font-size: 16px;
+font-weight: 400;
+} */
+
+/* .foto_photo h6{
+    color: #F16D7F;
+    font-size: 24px;
+} */
+
+.back{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+     /* background: linear-gradient(rgba(33, 22, 22, 0.70)),
+    url("/img/fonris.png") center/cover;   */
+}
+
+.back2{
+    position: absolute;
+    width: 1140px;
+    height: 180px;
+}
+
+.big{
+    grid-column: span 3;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.items h3{
+    color: #222;
+font-size: 30px;
+font-weight: 400;
+}
+
+.items p{
+    color: #9F9F9F;
+font-size: 14px;
+margin-bottom: 48px;
+}
+
+.lady-black{
+width: 360px;
+height: 420px;
+}
+
+.items-photo{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 360px 360px 360px;
+    gap: 30px;
+    margin-bottom: 48px;
+}
+
+.items-photo h3{
+    font-size: 13px;
+    padding: 24px 16px 16px 16px;
+}
+
+
+.items-photo p{
+    color: #5D5D5D;
+font-size: 14px;
+font-weight: 300;
+padding: 0px 16px 16px 16px;
+}
+
+.items-photo h4{
+    color: #F16D7F;
+font-weight: 400;
+padding: 0px 16px 24px 16px;
+}
+
+.size-photo{
+    width:360px;
+    height:581px;
+    background-color: #F8F8F8;
+}
+
+
+.product a{
+    border: 1px solid #FF6A6A;
+    padding: 15px 39px 14px 39px;
+    color: #F26376;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
