@@ -568,10 +568,10 @@ border-radius: 0px 15px 15px 0px;
         padding: 148px 0px 149px 0px;
     }
 
-    .big{
+    /* .big{
         width: 343px;
         height: 111px;
-    }
+    } */
 
     .foto_photo img{
         width: 343px;
@@ -586,6 +586,13 @@ border-radius: 0px 15px 15px 0px;
     .big-big img{
         width: 343px;
         height: 111px;
+        
+    }
+
+
+
+    .mini{
+        display: flex;
     }
 
     .items-photo{
